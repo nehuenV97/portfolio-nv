@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>NV-Portfolio</title>
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/NV/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" >INICIO</a></li>
+                            <!-- <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li> -->
+                            <!-- <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li> -->
+                            <li><a href="#portfolio" >PORTFOLIO</a></li>
+                            <!-- <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li> -->
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/nehuen-vega-24a607245/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/nehuenV97" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="presentacion">
+                <img src="img/proyecto4.jpg" alt="">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Nehuen Vega</span>, Desarrollador Web</h2>
+                <p class="descripcion">PRESENTACION DE PROYECTOS FRONT-END</p>
+                <a href="#portfolio">Ir a Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <!-- <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Nehuen Vega</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Similique dicta minus, accusamus, fuga nobis ipsum rerum amet hic aut maiores voluptate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section> -->
+
+    <!-- SECCION SERVICIOS -->
+    <!-- <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>                    
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, repudiandae perspiciatis? Id dolorem dicta reiciendis eaque.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>                    
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, repudiandae perspiciatis? Id dolorem dicta reiciendis eaque.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>                    
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, repudiandae perspiciatis? Id dolorem dicta reiciendis eaque.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>                    
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, repudiandae perspiciatis? Id dolorem dicta reiciendis eaque.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>                    
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, repudiandae perspiciatis? Id dolorem dicta reiciendis eaque.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>                    
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, repudiandae perspiciatis? Id dolorem dicta reiciendis eaque.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <p><i class="fa-brands fa-html5"></i> HTML</p>            
+        </div>
+
+        <div class="skill">
+            <p><i class="fa-brands fa-css3"></i> CSS</p>            
+        </div>
+
+        <div class="skill">
+            <p><i class="fa-brands fa-js"></i> Javascript</p>            
+        </div>
+
+        <div class="skill">
+            <p><i class="fa-brands fa-react"></i> React</p>            
+        </div>
+        
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagen-proyectos/clon-spotify.png" alt="proyecto-1">
+                <div class="info">
+                    <a href="https://nehuenv97.github.io/spotify-clon/" target="_blank">                        
+                        Clon de Spotify
+                    </a>
+                    <p>HTML - CSS</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagen-proyectos/app-presupuesto.png" alt="proyecto-2" >
+                <div class="info">
+                    <a href="https://nehuenv97.github.io/app-presupuesto/" target="_blank">
+                        App Presupuesto
+                    </a>
+                    <p>HTML - CSS - Javascript</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagen-proyectos/gif-app.png" alt="proyecto-3">
+                <div class="info">
+                    <a href="https://nehuenv97.github.io/React-GifExpert/" target="_blank">
+                        Buscador de Gifs
+                    </a>
+                    <p>React</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagen-proyectos/ecommerce-guayacan.png" alt="proyecto-4">
+                <div class="info">
+                    <a href="https://guayacan-ecommerce.netlify.app/" target="_blank">
+                        Ecommerce Guayacan (Coderhouse)
+                    </a>
+                    <p>React - MaterialUI - Firebase</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagen-proyectos/agenda-app.png" alt="proyecto-5">
+                <div class="info">
+                    <a href="https://notas-agenda.netlify.app/auth/login" target="_blank">
+                        Agenda de notas
+                    </a>
+                    <p>React - MaterialUI - Firebase - Redux</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagen-proyectos/pronet-redes.png" alt="proyecto-6">
+                <div class="info">
+                    <a href="https://pronet-redes.netlify.app/" target="_blank">
+                        Web para emprendimiento de redes de seguridad (Pronet)
+                    </a>
+                    <p>React - MaterialUI</p>
+                </div>
+            </div>            
+        </div>
+        
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <!-- <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <p><span>Correo:</span> veganehuen97@gmail.com</p>
+            <p><span>Cel:</span> 3547610848</p>
+            
+            <div class="redes">            
+                <a href="https://www.linkedin.com/in/nehuen-vega-24a607245/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/nehuenV97" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>           
+        </div>
+    </section> -->
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <div class="container-footer">
+            <p> veganehuen97@gmail.com</p>        
+            <div class="redes">            
+                <a href="https://www.linkedin.com/in/nehuen-vega-24a607245/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/nehuenV97" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <p><span>Cel:</span> 3547610848</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
